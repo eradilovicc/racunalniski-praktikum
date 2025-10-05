@@ -1,1 +1,3 @@
-# racunalniski-praktikum
+# Računalniški praktikum
+
+# Bližnjice iz vaj: 
