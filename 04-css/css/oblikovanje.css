@@ -16,9 +16,37 @@ body {
         preostanek pa se enakomerno razdeli med levim in desnim robom  */
     margin: auto;
     /*  Obojestranska poravnava besedila    */
-    text-align: justify;
+    text-align: left;
 }
 
+h1 {
+    color: #330066;
+}
+
+h2 {
+    margin-top: 2em;
+    border-top: 1px;
+    border-top-color: #AAAAAA;
+    border-top-style: solid;
+    margin-top: 0.52em;
+}
+
+#uvod {
+    padding: 2em;
+    background-color: rgb(51, 0, 102, 0.1);
+}
+
+.slika {
+    font-size: 0.9em;
+    font-stretch: 40%;
+    float: right;
+    margin-left: 2em;
+}
+
+.slika img {
+    width: 100%;
+    height: auto;
+}
 /*  Odstranimo podčrtovanje povezav in outline (ta se včasih pokaže kot kvadratek okrog povezave)  */
 a { text-decoration: none; outline:none; }
 /*  Spremenimo barve povezav: neobiskanih, obiskanih, pod miško in aktivnih */
