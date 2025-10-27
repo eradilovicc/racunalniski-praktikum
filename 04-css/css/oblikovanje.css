@@ -16,7 +16,7 @@ body {
         preostanek pa se enakomerno razdeli med levim in desnim robom  */
     margin: auto;
     /*  Obojestranska poravnava besedila    */
-    text-align: left;
+    text-align: justify;
 }
 
 h1 {
@@ -38,14 +38,23 @@ h2 {
 
 .slika {
     font-size: 0.9em;
-    font-stretch: 40%;
+    width: 40%;
     float: right;
     margin-left: 2em;
+    text-align: left;
+}
+
+.slika p:last-child {
+    font-size: 0.8em;
+    margin: 0%;
+    margin-top: -20px;
 }
 
 .slika img {
     width: 100%;
     height: auto;
+    float: right;
+    border-radius: 50%;
 }
 /*  Odstranimo podčrtovanje povezav in outline (ta se včasih pokaže kot kvadratek okrog povezave)  */
 a { text-decoration: none; outline:none; }
@@ -54,6 +63,9 @@ a:link { color:#cc0000; }
 a:visited { color:#660066; }
 a:hover { color:#660066; }
 a:active { color:#990000; outline:none; }
+a::before {
+    content: "🔗";
+}
 
 code {
     font-family: "SFMono-Regular", Consolas, "Liberation Mono", Menlo, Courier, monospace;
