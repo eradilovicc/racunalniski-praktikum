@@ -23,6 +23,9 @@ Včasih pride prav značka kbd za tipke. Značko uporabimo takole:
 ```
 <!-- konec bloka z izvorno kodo -->
 
+##Povezava do spletne strani
+[stran.htm.](https://eradilovicc.github.io/racunalniski-praktikum/03-html/stran.html)
+
 <!-- 2. nivojski razdelek -->
 ## Domača naloga
 
